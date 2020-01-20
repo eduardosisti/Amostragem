@@ -25,6 +25,6 @@ somadados = 0
 for soma in dados:
     somadados += soma
 
-print(sum(dados)) # soma os dados da lista
+print(sum(dados)) # soma os dados da lista (mesma cosia que o de cima)
 print(somadados/100000)
 print(np.std(dados,ddof=1))
